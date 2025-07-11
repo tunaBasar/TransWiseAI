@@ -1,0 +1,245 @@
+2025-07-11 09:23:41.215 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 11648 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 09:23:41.215 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 09:23:43.458 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.681 seconds (process running for 3.281)
+2025-07-11 09:23:52.754 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 09:23:52.759 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 09:23:52.819 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 09:23:52.819 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 09:23:52.820 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 09:23:52.821 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 09:23:52.821 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 09:23:52.821 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 09:23:52.911 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 09:23:52.912 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 09:23:52.946 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 09:23:52.947 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 09:23:53.031 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 09:23:53.031 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 09:23:53.031 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 09:23:53.032 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 09:23:57.682 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 09:23:57.682 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 09:23:57.700 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=string, Surname=string, email=string, SerialNumber=string, password=string, phone=string, role=Client)
+2025-07-11 09:23:58.191 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=5b7792fe-e63a-4f27-935b-e7975456f40d, name=string, surname=string, serialNumber=string, email=string, password=$2a$10$omGa1rfkf8e.xLq5fLMUo..ZD1C.RCF4b77ZMtLbVZLsBCuNJYefO, phone=string, role=Client)
+2025-07-11 10:19:01.072 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 4348 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 10:19:01.075 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 10:19:03.471 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 3.107 seconds (process running for 3.904)
+2025-07-11 10:19:35.055 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:19:35.059 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:19:35.141 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=string, Surname=string, email=string, SerialNumber=string, password=string, phone=string, role=Client)
+2025-07-11 10:51:22.017 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:51:22.018 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:51:22.019 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=string, Surname=string, email=string, SerialNumber=string, password=string, phone=string, role=Client)
+2025-07-11 10:51:28.183 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 10:51:28.183 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 10:51:28.279 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 10:51:28.279 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 10:51:28.279 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 10:51:28.290 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 10:51:28.290 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 10:51:28.290 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 10:51:28.388 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 10:51:28.388 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 10:51:28.404 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 10:51:28.404 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 10:51:28.455 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 10:51:28.455 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 10:51:28.455 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 10:51:28.455 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 10:51:33.484 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:51:33.484 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:51:33.484 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=string, Surname=string, email=string, SerialNumber=string, password=string, phone=string, role=Client)
+2025-07-11 10:52:20.379 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-11 10:52:20.380 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-11 10:52:20.380 [http-nio-8080-exec-2] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 10:52:43.463 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:52:43.463 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 10:52:43.463 [http-nio-8080-exec-9] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=asa, Surname=asa, email=asa, SerialNumber=123, password=123, phone=zxc, role=Client)
+2025-07-11 10:52:43.603 [http-nio-8080-exec-9] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=0c837a68-a819-4c89-b97f-a656095882c9, name=asa, surname=asa, serialNumber=123, email=asa, password=$2a$10$VaJ2ZQvQrxKEN1deO7XqK.uJ7bIGdj2OalTvEvW/2v06dYNuCx6aO, phone=zxc, role=Client)
+2025-07-11 10:53:11.768 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-11 10:53:11.768 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-11 10:53:11.768 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-11 10:53:11.783 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.JwtService - Extracted username: asa
+2025-07-11 10:53:11.783 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: asa
+2025-07-11 10:53:11.800 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: asa
+2025-07-11 10:53:11.802 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.JwtService - Token expiration: Fri Jul 11 11:52:43 TRT 2025, Current time: Fri Jul 11 10:53:11 TRT 2025
+2025-07-11 10:53:11.803 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-11 10:53:11.803 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: asa
+2025-07-11 10:53:11.804 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-11 10:53:11.804 [http-nio-8080-exec-6] INFO  c.e.u.Controller.UserController - GetAllUsers called
+2025-07-11 10:53:11.804 [http-nio-8080-exec-6] INFO  c.e.u.Controller.UserController - Authentication: UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=asa, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[Client]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[Client]]
+2025-07-11 10:53:11.804 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.UserService - GetAllUsers called
+2025-07-11 10:53:11.816 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.UserService - Found 3 users
+2025-07-11 10:53:24.333 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user/123, Should skip: false
+2025-07-11 10:53:24.349 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user/123
+2025-07-11 10:53:24.349 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-11 10:53:24.349 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.JwtService - Extracted username: asa
+2025-07-11 10:53:24.349 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: asa
+2025-07-11 10:53:24.356 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: asa
+2025-07-11 10:53:24.358 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.JwtService - Token expiration: Fri Jul 11 11:52:43 TRT 2025, Current time: Fri Jul 11 10:53:24 TRT 2025
+2025-07-11 10:53:24.358 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-11 10:53:24.358 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: asa
+2025-07-11 10:53:24.359 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user/123, Should skip: false
+2025-07-11 10:53:24.361 [http-nio-8080-exec-10] INFO  c.e.u.Controller.UserController - GetUserBySerialNumber called with serialNumber: 123
+2025-07-11 10:53:24.361 [http-nio-8080-exec-10] INFO  c.e.u.Controller.UserController - Authentication: UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=asa, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[Client]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[Client]]
+2025-07-11 10:53:24.361 [http-nio-8080-exec-10] INFO  c.e.u.Controller.UserController - Principal: org.springframework.security.core.userdetails.User [Username=asa, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[Client]]
+2025-07-11 10:53:24.361 [http-nio-8080-exec-10] INFO  c.e.u.Controller.UserController - Authorities: [Client]
+2025-07-11 10:53:24.361 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.UserService - GetUserBySerialNumber called with serialNumber: 123
+2025-07-11 10:53:24.367 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.UserService - User found: asa
+2025-07-11 11:00:38.356 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 21364 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 11:00:38.358 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:00:40.641 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.747 seconds (process running for 3.396)
+2025-07-11 11:00:57.720 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 11:00:57.736 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 11:00:57.783 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 11:00:57.783 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 11:00:57.783 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 11:00:57.783 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 11:00:57.799 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 11:00:57.799 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 11:00:57.887 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 11:00:57.887 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 11:00:57.918 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 11:00:57.918 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 11:00:57.990 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 11:00:57.990 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 11:00:57.990 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 11:00:57.990 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 11:01:09.832 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 11:01:09.843 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 11:01:09.856 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=string, Surname=string, email=asa, SerialNumber=123, password=string, phone=string, role=Client)
+2025-07-11 11:01:10.229 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Register request denied for existing email asa
+2025-07-11 11:44:12.640 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 20780 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 11:44:12.643 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:44:15.190 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 3.015 seconds (process running for 3.623)
+2025-07-11 11:44:37.305 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 11:44:37.309 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 11:44:37.382 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 11:44:37.383 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 11:44:37.384 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 11:44:37.384 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 11:44:37.384 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 11:44:37.384 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 11:44:37.491 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 11:44:37.491 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 11:44:37.527 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 11:44:37.528 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 11:44:37.620 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 11:44:37.620 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 11:44:37.620 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 11:44:37.620 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 11:45:16.558 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 5948 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 11:45:16.560 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 11:45:18.771 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.703 seconds (process running for 3.324)
+2025-07-11 11:45:49.892 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 11:45:49.892 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 11:45:49.988 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=Tuna, Surname=Basar, email=basar@gmail.com, SerialNumber=53134159168, password=123, phone=5414581131, role=Client)
+2025-07-11 11:45:50.472 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=d3b9dfa4-2b19-4ed5-ab30-fc39f0159ad3, name=Tuna, surname=Basar, serialNumber=53134159168, email=basar@gmail.com, password=$2a$10$QIybwD2mDS4s8m6NCto0guQW344k.rUO4P8sV1y.Zk9K57/8.qF9a, phone=5414581131, role=Client)
+2025-07-11 11:46:07.383 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 11:46:07.383 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 11:46:07.383 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=Tuna, Surname=Basar, email=basar@gmail.com, SerialNumber=53134159168, password=123, phone=5414581131, role=Client)
+2025-07-11 11:46:07.389 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.AuthService - Register request denied for existing email basar@gmail.com
+2025-07-11 12:49:22.137 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 12156 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 12:49:22.137 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:49:24.430 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.815 seconds (process running for 3.499)
+2025-07-11 12:49:33.992 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 12:49:34.007 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 12:49:34.078 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 12:49:34.078 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 12:49:34.078 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 12:49:34.078 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 12:49:34.083 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 12:49:34.083 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 12:49:34.186 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 12:49:34.186 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 12:49:34.214 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 12:49:34.222 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 12:49:34.293 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 12:49:34.293 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 12:49:34.293 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 12:49:34.293 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 12:49:48.424 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:49:48.440 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:49:48.850 [http-nio-8080-exec-8] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı basar
+2025-07-11 12:50:08.911 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:50:08.911 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:50:08.919 [http-nio-8080-exec-9] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı basar
+2025-07-11 12:50:19.201 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 20568 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 12:50:19.203 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:50:21.436 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.68 seconds (process running for 3.26)
+2025-07-11 12:51:33.560 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 16112 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 12:51:33.567 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:51:35.828 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.707 seconds (process running for 3.294)
+2025-07-11 12:51:43.279 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:51:43.283 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:51:43.737 [http-nio-8080-exec-1] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı basar
+2025-07-11 12:51:46.673 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 12:51:46.675 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 12:51:46.762 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 12:51:46.762 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 12:51:46.764 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 12:51:46.764 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 12:51:46.764 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 12:51:46.764 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 12:51:46.870 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 12:51:46.870 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 12:51:46.935 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 12:51:46.935 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 12:51:46.935 [http-nio-8080-exec-6] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 12:51:46.935 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 12:51:57.283 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:51:57.283 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:51:57.299 [http-nio-8080-exec-8] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı basar
+2025-07-11 12:55:09.479 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 7816 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 12:55:09.479 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:55:11.895 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.859 seconds (process running for 3.438)
+2025-07-11 12:58:53.033 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 13676 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 12:58:53.033 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 12:58:55.271 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.679 seconds (process running for 3.263)
+2025-07-11 12:59:01.385 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 12:59:01.385 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 12:59:01.453 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 12:59:01.453 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 12:59:01.453 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 12:59:01.453 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 12:59:01.469 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 12:59:01.469 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 12:59:01.563 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 12:59:01.563 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 12:59:01.593 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 12:59:01.593 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 12:59:01.659 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 12:59:01.659 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 12:59:01.659 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 12:59:01.659 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 12:59:12.054 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:59:12.054 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 12:59:12.094 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=basar, password=basar)
+2025-07-11 12:59:12.477 [http-nio-8080-exec-8] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı basar
+2025-07-11 14:00:35.653 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 14:00:35.653 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-11 14:00:35.668 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=string, Surname=string, email=basar@gmail.com, SerialNumber=string, password=string, phone=string, role=Client)
+2025-07-11 14:00:35.676 [http-nio-8080-exec-1] ERROR c.e.u.E.EmailAlreadyExistsException - Email already exists exception basar@gmail.com
+2025-07-11 14:06:40.421 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 19548 (C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService\target\classes started by ymanb in C:\Users\ymanb\OneDrive\Desktop\Projects\TransWiseAİ\UserService)
+2025-07-11 14:06:40.424 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 14:06:42.674 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.721 seconds (process running for 3.323)
+2025-07-11 14:06:49.643 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 14:06:49.647 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-11 14:06:49.709 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 14:06:49.709 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-11 14:06:49.711 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 14:06:49.711 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 14:06:49.711 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-11 14:06:49.712 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-11 14:06:49.806 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 14:06:49.807 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-11 14:06:49.839 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 14:06:49.839 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-11 14:06:49.964 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 14:06:49.965 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-11 14:06:49.965 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-11 14:06:49.965 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-11 14:07:00.428 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 14:07:00.428 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-11 14:07:00.465 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=string, password=string)
+2025-07-11 14:07:00.847 [http-nio-8080-exec-8] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı string

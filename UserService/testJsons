@@ -1,0 +1,17 @@
+
+//register
+{
+  "name": "Tuna",
+  "email": "basar@gmail.com",
+  "password": "123",
+  "phone": "5414581131",
+  "role": "Client",
+  "surname": "Basar",
+  "serialNumber": "53134159168"
+}
+
+//login
+{
+  "email": "basar@gmail.com",
+  "password": "123"
+}
