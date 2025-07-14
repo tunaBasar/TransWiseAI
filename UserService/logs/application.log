@@ -243,3 +243,9 @@
 2025-07-11 14:07:00.428 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
 2025-07-11 14:07:00.465 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=string, password=string)
 2025-07-11 14:07:00.847 [http-nio-8080-exec-8] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı string
+2025-07-14 01:42:38.503 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 981 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 01:42:38.505 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 01:42:40.801 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.796 seconds (process running for 3.107)
+2025-07-14 01:45:30.855 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 1177 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 01:45:30.860 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 01:45:33.416 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 3.04 seconds (process running for 3.404)
