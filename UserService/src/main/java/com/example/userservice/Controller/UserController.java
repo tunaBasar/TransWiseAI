@@ -6,6 +6,7 @@ import com.example.userservice.Service.Interface.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,6 +24,7 @@ public class UserController {
     }
 
     @GetMapping
+    @PreAuthorize("hasRole('Admin')")
     public ResponseEntity<Response<List<UserResponseDto>>> GetAllUsers() {
         logger.info("GetAllUsers called");
         logger.info("Authentication: {}", SecurityContextHolder.getContext().getAuthentication());
@@ -32,6 +34,7 @@ public class UserController {
     }
 
     @GetMapping("/{serialNumber}")
+    @PreAuthorize("hasRole('Admin')")
     public ResponseEntity<Response<UserResponseDto>> GetUserBySerialNumber(@PathVariable String serialNumber) {
         logger.info("GetUserBySerialNumber called with serialNumber: {}", serialNumber);
         logger.info("Authentication: {}", SecurityContextHolder.getContext().getAuthentication());
@@ -40,5 +43,20 @@ public class UserController {
 
         Response<UserResponseDto> userDto = userService.GetUserBySerialNumber(serialNumber);
         return ResponseEntity.ok(userDto);
+    }
+
+    // Kullanıcının kendi profilini görebilmesi için
+    @GetMapping("/profile")
+    @PreAuthorize("hasRole('Client') or hasRole('Driver') or hasRole('Admin')")
+    public ResponseEntity<Response<UserResponseDto>> GetMyProfile() {
+        logger.info("GetMyProfile called");
+        String currentUserEmail = SecurityContextHolder.getContext().getAuthentication().getName();
+        logger.info("Current user email: {}", currentUserEmail);
+
+        // Bu method için UserService'e yeni bir method eklemeniz gerekecek
+        // Response<UserResponseDto> userDto = userService.GetUserByEmail(currentUserEmail);
+        // return ResponseEntity.ok(userDto);
+
+        return ResponseEntity.ok(Response.success("Profil bilgisi", null, 200));
     }
 }

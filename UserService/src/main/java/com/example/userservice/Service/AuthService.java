@@ -9,16 +9,14 @@ import com.example.userservice.ExceptionHandler.InvalidCredentialsException;
 import com.example.userservice.ExceptionHandler.SerialNumberAlreadyExistException;
 import com.example.userservice.Extensions.Mapper;
 import com.example.userservice.Extensions.Response;
+import com.example.userservice.Extensions.StatusCode;
 import com.example.userservice.Model.UserModel;
 import com.example.userservice.Repository.UserRepository;
 import com.example.userservice.Service.Interface.IAuthService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 
 @Service
 public class AuthService implements IAuthService {
@@ -35,7 +33,6 @@ public class AuthService implements IAuthService {
         this.jwtService = jwtService;
         this.passwordEncoder = passwordEncoder;
     }
-
 
     @Override
     public Response<AuthResponse> register(RegisterRequestDto registerRequestDto) {
@@ -56,13 +53,15 @@ public class AuthService implements IAuthService {
         log.info("User has been registered successfully {}", userModel);
 
         String token = jwtService.generateToken(userModel);
-        AuthResponse authResponse= new AuthResponse(token);
+        AuthResponse authResponse = new AuthResponse(token);
 
-        return Response.success("Kayıt başarılı",authResponse,200);
+        return Response.success("Kayıt başarılı", authResponse, StatusCode.CREATED);
     }
+
     @Override
     public Response<AuthResponse> login(LoginRequest loginRequest) {
         log.info("Login request has been sent {}", loginRequest.toString());
+
         UserModel userModel = userRepository.findByEmail(loginRequest.getEmail())
                 .orElseThrow(() -> new EmailNotFoundException(loginRequest.getEmail()));
 
@@ -71,8 +70,9 @@ public class AuthService implements IAuthService {
 
         String token = jwtService.generateToken(userModel);
         AuthResponse authResponse = new AuthResponse(token);
-        log.info("User has been logged successfully token: {} serialnumber: {}", authResponse, userModel.getSerialNumber());
-        return Response.success("Giriş başarılı", authResponse, 200);
-    }
 
+        log.info("User has been logged successfully token: {} serialnumber: {}", authResponse, userModel.getSerialNumber());
+
+        return Response.success("Giriş başarılı", authResponse, StatusCode.SUCCESS);
+    }
 }

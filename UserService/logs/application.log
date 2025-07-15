@@ -249,3 +249,564 @@
 2025-07-14 01:45:30.855 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 1177 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
 2025-07-14 01:45:30.860 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
 2025-07-14 01:45:33.416 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 3.04 seconds (process running for 3.404)
+2025-07-14 07:59:33.418 [main] INFO  c.e.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 21.0.7 with PID 7570 (started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 07:59:33.419 [main] INFO  c.e.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 07:59:35.580 [main] INFO  c.e.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 2.425 seconds (process running for 3.066)
+2025-07-14 08:12:56.012 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 9299 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 08:12:56.013 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 08:12:57.639 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 1.947 seconds (process running for 2.441)
+2025-07-14 08:13:15.239 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 08:13:15.242 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 08:13:15.298 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 08:13:15.298 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 08:13:15.298 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 08:13:15.298 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 08:13:15.298 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 08:13:15.298 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 08:13:15.302 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 08:13:15.303 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 08:13:15.302 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 08:13:15.304 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 08:13:15.476 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 08:13:15.476 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 08:13:15.510 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 08:13:15.511 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 08:13:15.566 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 08:13:15.566 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 08:13:15.566 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 08:13:15.566 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 08:13:36.674 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 08:13:36.675 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 08:13:36.686 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=Tuna, Surname=Basar, email=basar@gmail.com, SerialNumber=53134159168, password=123, phone=5414581131, role=Client)
+2025-07-14 08:13:37.090 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=f95b0d32-4587-47a6-9c02-f017cc9989a5, name=Tuna, surname=Basar, serialNumber=53134159168, email=basar@gmail.com, password=$2a$10$5QdiOjN1bDQLUSjxUbytZ.7OxjUuOnrYDC2uERF70AXBiTEWIuOC., phone=5414581131, role=Client)
+2025-07-14 08:14:03.994 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 08:14:03.994 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 08:14:03.995 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 08:14:04.013 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Extracted username: basar@gmail.com
+2025-07-14 08:14:04.013 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: basar@gmail.com
+2025-07-14 08:14:04.036 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: basar@gmail.com
+2025-07-14 08:14:04.039 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 09:13:37 TRT 2025, Current time: Mon Jul 14 08:14:04 TRT 2025
+2025-07-14 08:14:04.041 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 08:14:04.041 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: basar@gmail.com
+2025-07-14 08:14:04.041 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 08:14:04.042 [http-nio-8080-exec-1] INFO  c.e.u.Controller.UserController - GetAllUsers called
+2025-07-14 08:14:04.042 [http-nio-8080-exec-1] INFO  c.e.u.Controller.UserController - Authentication: UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=basar@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[Client]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[Client]]
+2025-07-14 08:14:04.042 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.UserService - GetAllUsers called
+2025-07-14 08:14:04.047 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.UserService - Found 1 users
+2025-07-14 08:14:22.122 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user/53134159168, Should skip: false
+2025-07-14 08:14:22.123 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user/53134159168
+2025-07-14 08:14:22.123 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 08:14:22.124 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.JwtService - Extracted username: basar@gmail.com
+2025-07-14 08:14:22.124 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: basar@gmail.com
+2025-07-14 08:14:22.126 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: basar@gmail.com
+2025-07-14 08:14:22.127 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 09:13:37 TRT 2025, Current time: Mon Jul 14 08:14:22 TRT 2025
+2025-07-14 08:14:22.127 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 08:14:22.127 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: basar@gmail.com
+2025-07-14 08:14:22.128 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user/53134159168, Should skip: false
+2025-07-14 08:14:22.128 [http-nio-8080-exec-6] INFO  c.e.u.Controller.UserController - GetUserBySerialNumber called with serialNumber: 53134159168
+2025-07-14 08:14:22.128 [http-nio-8080-exec-6] INFO  c.e.u.Controller.UserController - Authentication: UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=basar@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[Client]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[Client]]
+2025-07-14 08:14:22.129 [http-nio-8080-exec-6] INFO  c.e.u.Controller.UserController - Principal: org.springframework.security.core.userdetails.User [Username=basar@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[Client]]
+2025-07-14 08:14:22.129 [http-nio-8080-exec-6] INFO  c.e.u.Controller.UserController - Authorities: [Client]
+2025-07-14 08:14:22.129 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.UserService - GetUserBySerialNumber called with serialNumber: 53134159168
+2025-07-14 08:14:22.131 [http-nio-8080-exec-6] INFO  c.e.userservice.Service.UserService - User found: basar@gmail.com
+2025-07-14 08:46:26.888 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 11314 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 08:46:26.890 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 08:46:29.017 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.521 seconds (process running for 3.039)
+2025-07-14 09:01:14.922 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:01:14.926 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:01:14.991 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:01:14.990 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:01:14.991 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:01:15.304 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:01:15.304 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:01:15.373 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:01:15.373 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:01:15.517 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:01:15.517 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 09:01:15.517 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 09:01:15.518 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:01:44.412 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 09:01:44.413 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 09:01:44.424 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=Sezai, Surname=sezai, email=sezai@gmail.com, SerialNumber=123, password=123, phone=123, role=Admin)
+2025-07-14 09:01:44.888 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=e83f4811-fb91-4594-b53f-c6f44dd51195, name=Sezai, surname=sezai, serialNumber=123, email=sezai@gmail.com, password=$2a$10$ivJJsldylX5E.EOeR4p2X.PKt7HjlmzMFzwdmmrc0I9btKMk7IeDa, phone=123, role=Admin)
+2025-07-14 09:02:01.739 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 09:02:01.740 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 09:02:01.740 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 09:02:01.753 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Extracted username: sezai@gmail.com
+2025-07-14 09:02:01.754 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: sezai@gmail.com
+2025-07-14 09:02:01.767 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: sezai@gmail.com
+2025-07-14 09:02:01.768 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 10:01:44 TRT 2025, Current time: Mon Jul 14 09:02:01 TRT 2025
+2025-07-14 09:02:01.770 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 09:02:01.771 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: sezai@gmail.com
+2025-07-14 09:04:00.022 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 12504 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 09:04:00.024 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 09:04:02.188 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.521 seconds (process running for 3.012)
+2025-07-14 09:04:12.203 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:04:12.206 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:04:12.264 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:04:12.264 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:04:12.265 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:04:12.265 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:04:12.265 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:04:12.265 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:04:12.265 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:04:12.265 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:04:12.266 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:04:12.266 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:04:12.481 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:04:12.482 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:04:12.521 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:04:12.521 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:04:12.603 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:04:12.603 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 09:04:12.603 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 09:04:12.604 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:04:23.656 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:04:23.656 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:04:23.694 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=sezai@gmail.com, password=123)
+2025-07-14 09:04:24.200 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - User has been logged successfully token: AuthResponse(accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXphaUBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3NTI0NzMwNjQsImV4cCI6MTc1MjQ3NjY2NH0.nhyd1YPOgwjieJ_n14j37YFMX1POVpT-3EPHPo3XR-s) serialnumber: 123
+2025-07-14 09:04:42.828 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user/profile, Should skip: false
+2025-07-14 09:04:42.829 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user/profile
+2025-07-14 09:04:42.829 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 09:04:42.842 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Extracted username: sezai@gmail.com
+2025-07-14 09:04:42.843 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: sezai@gmail.com
+2025-07-14 09:04:42.848 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: sezai@gmail.com
+2025-07-14 09:04:42.850 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 10:04:24 TRT 2025, Current time: Mon Jul 14 09:04:42 TRT 2025
+2025-07-14 09:04:42.850 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 09:04:42.851 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: sezai@gmail.com
+2025-07-14 09:04:42.851 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user/profile, Should skip: false
+2025-07-14 09:04:42.855 [http-nio-8080-exec-1] INFO  c.e.u.Controller.UserController - GetMyProfile called
+2025-07-14 09:04:42.856 [http-nio-8080-exec-1] INFO  c.e.u.Controller.UserController - Current user email: sezai@gmail.com
+2025-07-14 09:04:47.933 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 09:04:47.933 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 09:04:47.933 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 09:04:47.935 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.JwtService - Extracted username: sezai@gmail.com
+2025-07-14 09:04:47.935 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: sezai@gmail.com
+2025-07-14 09:04:47.937 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: sezai@gmail.com
+2025-07-14 09:04:47.938 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 10:04:24 TRT 2025, Current time: Mon Jul 14 09:04:47 TRT 2025
+2025-07-14 09:04:47.939 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 09:04:47.939 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: sezai@gmail.com
+2025-07-14 09:04:47.939 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 09:04:47.940 [http-nio-8080-exec-3] INFO  c.e.u.Controller.UserController - GetAllUsers called
+2025-07-14 09:04:47.940 [http-nio-8080-exec-3] INFO  c.e.u.Controller.UserController - Authentication: UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sezai@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_Admin]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_Admin]]
+2025-07-14 09:04:47.940 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.UserService - GetAllUsers called
+2025-07-14 09:04:47.949 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.UserService - Found 2 users
+2025-07-14 09:06:09.887 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:06:09.887 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:06:09.888 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=basartuna35@gmail.com, password=123Yman456.)
+2025-07-14 09:06:09.889 [http-nio-8080-exec-8] ERROR c.e.u.E.EmailNotFoundException - Bu mail ile kayıtlı kullanıcı bulunamadı basartuna35@gmail.com
+2025-07-14 09:06:19.525 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:06:19.526 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:06:19.527 [http-nio-8080-exec-9] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=basar@gmail.com, password=123Yman456.)
+2025-07-14 09:06:19.606 [http-nio-8080-exec-9] ERROR c.e.u.E.InvalidCredentialsException - Şifre yanlış
+2025-07-14 09:06:26.119 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:06:26.120 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:06:26.121 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=basar@gmail.com, password=123)
+2025-07-14 09:06:26.220 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - User has been logged successfully token: AuthResponse(accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYXNhckBnbWFpbC5jb20iLCJyb2xlIjoiQ2xpZW50IiwiaWF0IjoxNzUyNDczMTg2LCJleHAiOjE3NTI0NzY3ODZ9.3wXsMNqhfvF5p8SVWEC288_Tj1TGK4TXiAOcfH1AThk) serialnumber: 53134159168
+2025-07-14 09:06:39.089 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 09:06:39.089 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 09:06:39.089 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 09:06:39.091 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Extracted username: basar@gmail.com
+2025-07-14 09:06:39.091 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: basar@gmail.com
+2025-07-14 09:06:39.095 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: basar@gmail.com
+2025-07-14 09:06:39.097 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 10:06:26 TRT 2025, Current time: Mon Jul 14 09:06:39 TRT 2025
+2025-07-14 09:06:39.098 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 09:06:39.098 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: basar@gmail.com
+2025-07-14 09:10:20.480 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 13028 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 09:10:20.482 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 09:10:22.585 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.468 seconds (process running for 2.948)
+2025-07-14 09:10:30.147 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:10:30.150 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:10:30.195 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:10:30.195 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:10:30.195 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:10:30.196 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:10:30.195 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:10:30.196 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:10:30.195 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:10:30.196 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:10:30.196 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:10:30.196 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:10:30.423 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:10:30.424 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:10:30.522 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:10:30.523 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:10:30.618 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:10:30.618 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 09:10:30.618 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 09:10:30.618 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:10:48.518 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:10:48.518 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:10:48.546 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=basar@gmail.com, password=123)
+2025-07-14 09:10:49.029 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - User has been logged successfully token: AuthResponse(accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYXNhckBnbWFpbC5jb20iLCJyb2xlIjoiQ2xpZW50IiwiaWF0IjoxNzUyNDczNDQ5LCJleHAiOjE3NTI0NzcwNDl9.15fk-I9-58HviNDkaNXVWIeJGC4jyqs5HSkcXlNW7BI) serialnumber: 53134159168
+2025-07-14 09:11:01.194 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 09:11:01.194 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 09:11:01.195 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 09:11:01.213 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Extracted username: basar@gmail.com
+2025-07-14 09:11:01.213 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: basar@gmail.com
+2025-07-14 09:11:01.217 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: basar@gmail.com
+2025-07-14 09:11:01.219 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 10:10:49 TRT 2025, Current time: Mon Jul 14 09:11:01 TRT 2025
+2025-07-14 09:11:01.219 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 09:11:01.219 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: basar@gmail.com
+2025-07-14 09:16:18.500 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 13468 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 09:16:18.502 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 09:16:20.582 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.465 seconds (process running for 2.937)
+2025-07-14 09:16:25.545 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:16:25.548 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 09:16:25.627 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:16:25.627 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:16:25.627 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 09:16:25.627 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:16:25.627 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 09:16:25.627 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 09:16:25.630 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:16:25.631 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 09:16:25.633 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:16:25.634 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 09:16:25.879 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:16:25.879 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 09:16:25.913 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:16:25.914 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 09:16:25.989 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:16:25.989 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 09:16:25.990 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 09:16:25.990 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 09:16:36.983 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:16:36.983 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 09:16:37.015 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=basar@gmail.com, password=123)
+2025-07-14 09:16:37.521 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - User has been logged successfully token: AuthResponse(accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYXNhckBnbWFpbC5jb20iLCJyb2xlIjoiQ2xpZW50IiwiaWF0IjoxNzUyNDczNzk3LCJleHAiOjE3NTI0NzczOTd9.PkTUUj3c5XMqN4jy60KZAgkzK5uSxa3GqQaMPaX1YXU) serialnumber: 53134159168
+2025-07-14 09:16:56.845 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 09:16:56.845 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 09:16:56.845 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 09:16:56.858 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Extracted username: basar@gmail.com
+2025-07-14 09:16:56.858 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: basar@gmail.com
+2025-07-14 09:16:56.862 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: basar@gmail.com
+2025-07-14 09:16:56.863 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 10:16:37 TRT 2025, Current time: Mon Jul 14 09:16:56 TRT 2025
+2025-07-14 09:16:56.863 [http-nio-8080-exec-1] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 09:16:56.864 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: basar@gmail.com
+2025-07-14 09:16:56.864 [http-nio-8080-exec-1] WARN  c.e.u.E.CustomAccessDeniedHandler - Access denied for path: /api/user - Access Denied
+2025-07-14 16:58:20.384 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 33098 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 16:58:20.386 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 16:58:22.403 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.358 seconds (process running for 2.847)
+2025-07-14 16:58:25.525 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /, Should skip: false
+2025-07-14 16:58:25.527 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /
+2025-07-14 16:58:25.527 [http-nio-8080-exec-1] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 16:58:25.531 [http-nio-8080-exec-1] WARN  c.e.u.E.CustomAuthenticationEntryPoint - Authentication failed for path: / - Full authentication is required to access this resource
+2025-07-14 16:58:25.613 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /favicon.ico, Should skip: false
+2025-07-14 16:58:25.614 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /favicon.ico
+2025-07-14 16:58:25.614 [http-nio-8080-exec-2] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 16:58:25.614 [http-nio-8080-exec-2] WARN  c.e.u.E.CustomAuthenticationEntryPoint - Authentication failed for path: /favicon.ico - Full authentication is required to access this resource
+2025-07-14 16:58:30.946 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/, Should skip: true
+2025-07-14 16:58:30.947 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/, Should skip: true
+2025-07-14 16:58:30.965 [http-nio-8080-exec-3] ERROR c.e.u.E.GlobalExceptionHandler - Unexpected error occurred: No static resource swagger-ui.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-14 16:58:31.012 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /favicon.ico, Should skip: false
+2025-07-14 16:58:31.013 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /favicon.ico
+2025-07-14 16:58:31.013 [http-nio-8080-exec-4] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 16:58:31.013 [http-nio-8080-exec-4] WARN  c.e.u.E.CustomAuthenticationEntryPoint - Authentication failed for path: /favicon.ico - Full authentication is required to access this resource
+2025-07-14 16:58:37.409 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 16:58:37.410 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 16:58:37.466 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 16:58:37.467 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 16:58:37.613 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 16:58:37.613 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 16:58:37.656 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 16:58:37.657 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 16:58:37.681 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 16:58:37.681 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 16:58:37.681 [http-nio-8080-exec-3] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 16:58:37.682 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 16:58:53.210 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 16:58:53.210 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/login, Should skip: true
+2025-07-14 16:58:53.236 [http-nio-8080-exec-4] INFO  c.e.userservice.Service.AuthService - Login request has been sent LoginRequest(email=sezai@gmail.com, password=123)
+2025-07-14 16:58:53.688 [http-nio-8080-exec-4] INFO  c.e.userservice.Service.AuthService - User has been logged successfully token: AuthResponse(accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzZXphaUBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3NTI1MDE1MzMsImV4cCI6MTc1MjUwNTEzM30.B9hLZb9SBuFlh_P9ePm_k1VfcR0c9HPJoPwd0JDK-pI) serialnumber: 123
+2025-07-14 16:59:05.414 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 16:59:05.414 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /api/user
+2025-07-14 16:59:05.414 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Token extracted: eyJhbGciOiJIUzI1NiJ9...
+2025-07-14 16:59:05.424 [http-nio-8080-exec-5] INFO  c.e.userservice.Service.JwtService - Extracted username: sezai@gmail.com
+2025-07-14 16:59:05.425 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Extracted username: sezai@gmail.com
+2025-07-14 16:59:05.428 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - User details loaded for: sezai@gmail.com
+2025-07-14 16:59:05.429 [http-nio-8080-exec-5] INFO  c.e.userservice.Service.JwtService - Token expiration: Mon Jul 14 17:58:53 TRT 2025, Current time: Mon Jul 14 16:59:05 TRT 2025
+2025-07-14 16:59:05.430 [http-nio-8080-exec-5] INFO  c.e.userservice.Service.JwtService - Token is valid
+2025-07-14 16:59:05.430 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Authentication set for user: sezai@gmail.com
+2025-07-14 16:59:05.430 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/user, Should skip: false
+2025-07-14 16:59:05.435 [http-nio-8080-exec-5] INFO  c.e.u.Controller.UserController - GetAllUsers called
+2025-07-14 16:59:05.435 [http-nio-8080-exec-5] INFO  c.e.u.Controller.UserController - Authentication: UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=sezai@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_Admin]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_Admin]]
+2025-07-14 16:59:05.435 [http-nio-8080-exec-5] INFO  c.e.userservice.Service.UserService - GetAllUsers called
+2025-07-14 16:59:05.441 [http-nio-8080-exec-5] INFO  c.e.userservice.Service.UserService - Found 2 users
+2025-07-14 22:11:53.661 [main] INFO  c.e.u.UserServiceApplication - Starting UserServiceApplication using Java 21.0.7 with PID 12774 (/home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService/target/classes started by tunahanbasar in /home/tunahanbasar/Desktop/Projects/TransWiseAI/UserService)
+2025-07-14 22:11:53.663 [main] INFO  c.e.u.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 22:11:55.766 [main] INFO  c.e.u.UserServiceApplication - Started UserServiceApplication in 2.479 seconds (process running for 3.004)
+2025-07-14 22:12:09.492 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:12:09.496 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:12:09.559 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:12:09.559 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:12:09.559 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:12:09.559 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:12:09.559 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:12:09.559 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:12:09.562 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:12:09.562 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:12:09.562 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:12:09.563 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:12:09.752 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 22:12:09.753 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 22:12:09.790 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:12:09.791 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:12:09.867 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:12:09.868 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:12:09.868 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:12:09.869 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:12:52.018 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:12:52.019 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:12:52.034 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:12:52.035 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:12:52.210 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:12:52.210 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:12:52.218 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:12:52.218 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:12:52.218 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:12:52.219 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:13:48.317 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:13:48.317 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:13:48.375 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:13:48.374 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:13:48.375 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:13:48.375 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:13:48.532 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 22:13:48.533 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-16x16.png, Should skip: true
+2025-07-14 22:13:48.561 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:13:48.562 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:13:48.577 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:13:48.577 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:13:48.577 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:13:48.577 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:16:11.736 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:16:11.736 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:16:11.933 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:16:11.933 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:16:11.934 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:16:11.934 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:16:11.937 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:16:11.937 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:16:11.937 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:16:11.937 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:16:11.938 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:16:11.938 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:16:12.601 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:16:12.602 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:16:12.628 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:16:12.629 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:16:12.629 [http-nio-8080-exec-10] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:16:12.629 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:16:12.658 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:16:12.658 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:16:48.194 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:16:48.196 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:16:48.490 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:16:48.490 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:16:48.491 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:16:48.491 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:16:48.558 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:16:48.559 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:16:48.559 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:16:48.559 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:16:48.561 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:16:48.561 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:16:49.309 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:16:49.310 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:16:49.310 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:16:49.311 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:16:49.399 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:16:49.400 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:16:49.400 [http-nio-8080-exec-7] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:16:49.401 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:16:54.121 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:16:54.122 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:16:54.153 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:16:54.154 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:16:54.161 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:16:54.161 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:16:54.165 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:16:54.165 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:16:54.166 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:16:54.166 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:16:54.166 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:16:54.166 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:16:54.736 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:16:54.736 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:16:54.737 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:16:54.737 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:16:54.756 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:16:54.757 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:16:54.757 [http-nio-8080-exec-3] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:16:54.757 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:17:03.031 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:17:03.032 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.html, Should skip: true
+2025-07-14 22:17:03.061 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:17:03.062 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui.css, Should skip: true
+2025-07-14 22:17:03.069 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:17:03.070 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/index.css, Should skip: true
+2025-07-14 22:17:03.075 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:17:03.075 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:17:03.075 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:17:03.075 [http-nio-8080-exec-2] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-bundle.js, Should skip: true
+2025-07-14 22:17:03.075 [http-nio-8080-exec-1] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-ui-standalone-preset.js, Should skip: true
+2025-07-14 22:17:03.075 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/swagger-initializer.js, Should skip: true
+2025-07-14 22:17:03.748 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:17:03.748 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:17:03.749 [http-nio-8080-exec-6] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs/swagger-config, Should skip: true
+2025-07-14 22:17:03.749 [http-nio-8080-exec-5] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /swagger-ui/favicon-32x32.png, Should skip: true
+2025-07-14 22:17:03.773 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:17:03.773 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - JWT Filter processing request: /v3/api-docs
+2025-07-14 22:17:03.773 [http-nio-8080-exec-9] WARN  c.e.u.E.JwtAuthenticationFilter - No Authorization header or doesn't start with Bearer
+2025-07-14 22:17:03.773 [http-nio-8080-exec-9] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /v3/api-docs, Should skip: false
+2025-07-14 22:18:10.929 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:10.930 [http-nio-8080-exec-7] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:10.941 [http-nio-8080-exec-7] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=murat, Surname=basar, email=murat, SerialNumber=123, password=123, phone=123, role=Client)
+2025-07-14 22:18:11.217 [http-nio-8080-exec-7] ERROR c.e.u.E.SerialNumberAlreadyExistException - SerialNumber already exists exception123
+2025-07-14 22:18:11.218 [http-nio-8080-exec-7] WARN  c.e.u.E.GlobalExceptionHandler - Serial number already exists: Serial number already exists123
+2025-07-14 22:18:26.386 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:26.387 [http-nio-8080-exec-8] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:26.389 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=murat, Surname=basar, email=murat, SerialNumber=1223, password=123, phone=123, role=Client)
+2025-07-14 22:18:26.525 [http-nio-8080-exec-8] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=f1d077b5-288e-43af-a648-e512945cae43, name=murat, surname=basar, serialNumber=1223, email=murat, password=$2a$10$vo9/deS6zg.m8cVpSgJbl.6y6w4JPJC.kU74ksA3QK./OJUSWFrMa, phone=123, role=Client)
+2025-07-14 22:18:27.000 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:27.000 [http-nio-8080-exec-10] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:27.002 [http-nio-8080-exec-10] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=murat, Surname=basar, email=murat, SerialNumber=1223, password=123, phone=123, role=Client)
+2025-07-14 22:18:27.004 [http-nio-8080-exec-10] ERROR c.e.u.E.EmailAlreadyExistsException - Email already exists exception murat
+2025-07-14 22:18:27.005 [http-nio-8080-exec-10] WARN  c.e.u.E.GlobalExceptionHandler - Email already exists: This email already exists murat
+2025-07-14 22:18:43.691 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:43.692 [http-nio-8080-exec-3] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:43.694 [http-nio-8080-exec-3] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=murat, Surname=basar, email=murat1, SerialNumber=1223, password=123, phone=123, role=Client)
+2025-07-14 22:18:43.696 [http-nio-8080-exec-3] ERROR c.e.u.E.SerialNumberAlreadyExistException - SerialNumber already exists exception1223
+2025-07-14 22:18:43.697 [http-nio-8080-exec-3] WARN  c.e.u.E.GlobalExceptionHandler - Serial number already exists: Serial number already exists1223
+2025-07-14 22:18:52.600 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:52.601 [http-nio-8080-exec-4] INFO  c.e.u.E.JwtAuthenticationFilter - Path: /api/auth/register, Should skip: true
+2025-07-14 22:18:52.603 [http-nio-8080-exec-4] INFO  c.e.userservice.Service.AuthService - Register request has been sent RegisterRequestDto(name=murat, Surname=basar, email=murat1, SerialNumber=12234, password=123, phone=123, role=Client)
+2025-07-14 22:18:52.682 [http-nio-8080-exec-4] INFO  c.e.userservice.Service.AuthService - User has been registered successfully UserModel(id=c6bacc0f-72cd-43cc-a8f8-55a13c862130, name=murat, surname=basar, serialNumber=12234, email=murat1, password=$2a$10$nnqwLh.cw1qdPRJOuJMZs.w7ncib.Hlo2//s.0Fe3n5yHcBckvzLG, phone=123, role=Client)
